@@ -1,14 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My first table</title>
-</head>
-<body>
+  </head>
+  <body>
     <h1>Get started with table lesson</h1>
     <table>
-
+      <thead>
+        <tr>
+          <th colspan="8">My first table</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>First cell</td>
+          <td>Secon cell</td>
+          <td colspan="6" rowspan="3">6 cells merged into one</td>
+        </tr>
+        <tr>
+          <td colspan="2">Two cells merged into one</td>
+        </tr>
+        <tr>
+          <td>1st cell 3rd row</td>
+          <td>2nd cell 3rd row</td>
+        </tr>
+        <tr>
+          <td colspan="8">Do you like tables?</td>
+        </tr>
+      </tbody>
     </table>
-</body>
-</html> 
+  </body>
+</html>
