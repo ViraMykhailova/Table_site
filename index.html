@@ -4,19 +4,30 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My first table</title>
+<style>
+      table {
+        text-align: center;
+        font-size: 14px;
+        color: white;
+      }
+    </style>
   </head>
   <body>
     <h1>Get started with table lesson</h1>
-    <table>
+    <table width="400"
+      cellpadding="5"
+      cellspacing="5"
+      border="2px"
+      bgcolor="#145678">
       <thead>
         <tr>
-          <th colspan="8">My first table</th>
+          <th scope="col" colspan="8">MY FIRST TABLE</th>
         </tr>
       </thead>
       <tbody>
         <tr>
           <td>First cell</td>
-          <td>Secon cell</td>
+          <td>Second cell</td>
           <td colspan="6" rowspan="3">6 cells merged into one</td>
         </tr>
         <tr>
